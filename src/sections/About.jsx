@@ -3,28 +3,30 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Clean Architecture",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Designing maintainable, modular backend systems built for long-term scalability.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Scalable Performance",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Building high-throughput services optimized for reliability and real-world production load.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Enterprise Ownership",
+    description:
+      "Leading end-to-end delivery of critical systems from design to production support.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "AI-Driven Automation",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Applying LLM integrations and intelligent workflows to reduce manual effort and improve efficiency.",
   },
 ];
+
 
 export const About = () => {
   return (
@@ -40,39 +42,41 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Engineering reliable systems,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                at enterprise scale.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I’m a Senior Software Engineer with 6+ years of experience building
+                scalable backend systems for enterprise environments. My work focuses on
+                designing secure, high-performance services using Java, microservices
+                architecture, and cloud-native platforms.
               </p>
+
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I have led development of critical billing, transaction, and workflow
+                automation systems used in production by large organizations. My approach
+                emphasizes reliability, clean architecture, and measurable business
+                impact—combining strong engineering fundamentals with modern cloud and
+                AI-driven automation.
               </p>
+
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Beyond implementation, I take ownership of end-to-end delivery—from system
+                design and development to deployment, observability, and production
+                support—ensuring software performs consistently at real-world scale.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "I build secure, scalable backend platforms that power real business
+                workflows—software designed not just to function, but to endure,
+                evolve, and deliver measurable value."
               </p>
             </div>
           </div>
